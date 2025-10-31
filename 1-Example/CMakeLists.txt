@@ -23,4 +23,6 @@ target_link_libraries(Step_5 PRIVATE Threads::Threads)
 add_executable(final_mutex final_mutex.cpp)
 target_link_libraries(final_mutex PRIVATE Threads::Threads)
 
+add_executable(final_atomic final_atomic)
+
 # add_executable(final_mutex_std23 final_mutex_std23.cpp)
