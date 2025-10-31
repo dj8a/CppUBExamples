@@ -15,6 +15,8 @@ target_link_libraries(Step_2 PRIVATE Threads::Threads)
 add_executable(Step_3 step_3_thread_true.cpp)
 target_link_libraries(Step_3 PRIVATE Threads::Threads)
 
+add_executable(Step_4 step_4.cpp)
+
 add_executable(final_mutex final_mutex.cpp)
 target_link_libraries(final_mutex PRIVATE Threads::Threads)
 
